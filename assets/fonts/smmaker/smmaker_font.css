@@ -1,0 +1,15 @@
+/*
+Style configuring the Super Mario Maker font.
+*/
+
+@font-face {
+    font-family: 'SMMaker';
+    src: url('super_mario_maker_extended-webfont.eot');
+    src: url('super_mario_maker_extended-webfont.eot?#iefix') format('embedded-opentype'),
+         url('super_mario_maker_extended-webfont.woff2') format('woff2'),
+         url('super_mario_maker_extended-webfont.woff') format('woff'),
+         url('super_mario_maker_extended-webfont.ttf') format('truetype'),
+         url('super_mario_maker_extended-webfont.svg#super_mario_maker_extendedRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

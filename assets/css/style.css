@@ -1,0 +1,16 @@
+@import "../fonts/smmaker/smmaker_font.css";
+
+body
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: #050505;
+    color: #efefef;
+}
+
+canvas#game
+{
+    border: 1px solid #ffffff;
+}
