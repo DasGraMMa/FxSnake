@@ -62,6 +62,8 @@ class Vector2i extends Vector2
     }
 }
 
+// TODO: Add GameScene class and make Game switch to them for cool handling.
+
 /**
  * The game itself.
  */
@@ -201,8 +203,11 @@ class Game
 
     onDeath()
     {
+        // TODO: Do something else, not only log death.
         Game.log("YOU'RE DEAD.");
     }
+
+    // TODO: showHighscore() // ?
 
     collectFood()
     {
